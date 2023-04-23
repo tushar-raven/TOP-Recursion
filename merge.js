@@ -35,10 +35,8 @@ function merge(l, r) {
     arr.push(r[0]);
     r.shift();
   }
-  console.log(arr);
+
   return arr;
 }
 
 console.log(mergeRecSort([1, 5, 2, 4, 3, 9, 8, 6]));
-
-//console.log(merge([1, 2, 3, 4], [2, 3, 45]));
